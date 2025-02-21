@@ -11,7 +11,7 @@ export default function Home() {
       <View style={styles.userInfo}>
         <Text style={styles.label}>ID del Usuario:</Text>
         <Text>{userData.usuarioID || "No disponible"}</Text>
-
+        
         <Text style={styles.label}>Correo:</Text>
         <Text>{userData.correo || "No disponible"}</Text>
 
