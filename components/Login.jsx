@@ -38,7 +38,7 @@ const Login = ({ handleVisualize }) => {
 
       if (data.tipo === "exito") {
         alert("Inicio de sesión exitoso")
-        navigation.navigate("enviar-otp", { userData: data })
+        navigation.navigate("home", { userData: data })
       } else {
         alert(data.mensaje || "Error al iniciar sesión")
       }
